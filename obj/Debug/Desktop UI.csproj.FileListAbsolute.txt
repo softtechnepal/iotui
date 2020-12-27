@@ -1,0 +1,9 @@
+D:\IOT Projects\My Projects\UI\Desktop UI\bin\Debug\Desktop UI.exe.config
+D:\IOT Projects\My Projects\UI\Desktop UI\bin\Debug\Desktop UI.exe
+D:\IOT Projects\My Projects\UI\Desktop UI\bin\Debug\Desktop UI.pdb
+D:\IOT Projects\My Projects\UI\Desktop UI\obj\Debug\Desktop UI.csprojAssemblyReference.cache
+D:\IOT Projects\My Projects\UI\Desktop UI\obj\Debug\Desktop_UI.Properties.Resources.resources
+D:\IOT Projects\My Projects\UI\Desktop UI\obj\Debug\Desktop UI.csproj.GenerateResource.cache
+D:\IOT Projects\My Projects\UI\Desktop UI\obj\Debug\Desktop UI.csproj.CoreCompileInputs.cache
+D:\IOT Projects\My Projects\UI\Desktop UI\obj\Debug\Desktop UI.exe
+D:\IOT Projects\My Projects\UI\Desktop UI\obj\Debug\Desktop UI.pdb
