@@ -114,7 +114,7 @@ namespace Desktop_UI
             // 
             // btnAutomatic
             // 
-            this.btnAutomatic.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnAutomatic.BackColor = System.Drawing.Color.ForestGreen;
             this.btnAutomatic.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAutomatic.ForeColor = System.Drawing.Color.Snow;
             this.btnAutomatic.Location = new System.Drawing.Point(46, 22);
@@ -127,7 +127,7 @@ namespace Desktop_UI
             // 
             // btnManual
             // 
-            this.btnManual.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnManual.BackColor = System.Drawing.Color.ForestGreen;
             this.btnManual.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnManual.ForeColor = System.Drawing.Color.Snow;
             this.btnManual.Location = new System.Drawing.Point(261, 22);
@@ -412,7 +412,7 @@ namespace Desktop_UI
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Desktop;
+            this.button1.BackColor = System.Drawing.Color.DarkGreen;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Snow;
             this.button1.Location = new System.Drawing.Point(23, 56);
@@ -424,7 +424,7 @@ namespace Desktop_UI
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.Desktop;
+            this.button2.BackColor = System.Drawing.Color.Red;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Snow;
             this.button2.Location = new System.Drawing.Point(312, 56);
@@ -437,7 +437,7 @@ namespace Desktop_UI
             // button3
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.BackColor = System.Drawing.SystemColors.Desktop;
+            this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Snow;
             this.button3.Location = new System.Drawing.Point(581, 56);
@@ -450,7 +450,7 @@ namespace Desktop_UI
             // button4
             // 
             this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.BackColor = System.Drawing.SystemColors.Desktop;
+            this.button4.BackColor = System.Drawing.Color.DarkGreen;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Snow;
             this.button4.Location = new System.Drawing.Point(292, 56);
