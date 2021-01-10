@@ -23,7 +23,7 @@ namespace Desktop_UI
         {
             WindowState = FormWindowState.Maximized;
             timer1.Start();
-            ReadData();
+            //ReadData();
         }
 
         private void ReadData()

@@ -72,7 +72,7 @@ namespace Desktop_UI
             }
             catch (Exception ex)
             {
-                throw ex;
+                MessageBox.Show(ex.Message);
             }
         }
 
