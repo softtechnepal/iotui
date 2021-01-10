@@ -10,26 +10,30 @@ using System.Windows.Forms;
 
 namespace Desktop_UI
 {
-    public partial class Form1 : Form
+    public partial class ReadDataForm : Form
     {
-        public Form1()
+        private ModbusRTUProtocol modbusRTUProtocol = null;
+        public ReadDataForm()
         {
             InitializeComponent();
             CustomButtonDesign();
-
         }
 
         private void powerform_load(object sender, EventArgs e)
         {
-            /*int width = Screen.PrimaryScreen.Bounds.Width;
-            int height = Screen.PrimaryScreen.Bounds.Height;
-            this.Location = new Point(0, 0);
-            this.Size = new Size(width, height);*/
-            // WindowState = FormWindowState.Maximized;
+            WindowState = FormWindowState.Maximized;
             timer1.Start();
-
-            //panel2.BackColor = Color.FromArgb(25, Color.Blue);
+            ReadData();
         }
+
+        private void ReadData()
+        {
+            const uint _numberofPoints = 20;
+            modbusRTUProtocol = new ModbusRTUProtocol(_numberofPoints);
+            lblVoltageNum.DataBindings.Add(new Binding("Text", modbusRTUProtocol.Registers[0], "Value", true, DataSourceUpdateMode.OnPropertyChanged));
+            modbusRTUProtocol.Start(1);
+        }
+
 
         private void btnManual_Click(object sender, EventArgs e)
         {

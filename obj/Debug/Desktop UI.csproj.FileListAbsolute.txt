@@ -8,3 +8,4 @@ D:\IOT Projects\My Projects\UI\Desktop UI\obj\Debug\Desktop UI.csproj.CoreCompil
 D:\IOT Projects\My Projects\UI\Desktop UI\obj\Debug\Desktop UI.exe
 D:\IOT Projects\My Projects\UI\Desktop UI\obj\Debug\Desktop UI.pdb
 D:\IOT Projects\My Projects\UI\Desktop UI\obj\Debug\Desktop_UI.Form1.resources
+D:\IOT Projects\My Projects\UI\Desktop UI\obj\Debug\Desktop_UI.ReadDataForm.resources
